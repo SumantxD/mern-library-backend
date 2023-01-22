@@ -21,7 +21,8 @@ app.use((req, res, next) =>{
 
 //routes
    //book routes
-app.use('/books',bookRoutes)
+   https://library-sn7f.onrender.com
+app.use('https://library-sn7f.onrender.com/books',bookRoutes)
    //user routes
 app.use('/user',userRoutes)
    //the final rutes will be /user/login && /user/signup
